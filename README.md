@@ -1,5 +1,5 @@
 # Installable Streamlit App
-An example of packaging streamlit app.
+An example of packaging a streamlit app.
 
 ## Project structure
 
