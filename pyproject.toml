@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "installable-streamlit-app"
+version = "1.0"
+dependencies = [
+  "streamlit",
+]
+requires-python = ">=3.11"
+description = "Installable streamlit app."
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.scripts]
+run-my-app = "my_package.app:run_app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["my_package"]
+

@@ -1,0 +1,12 @@
+# Python
+__pychache__/
+venv/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# IDE
+*.swp
+.ycm_extra_conf.py
+compile_commands.json
+
